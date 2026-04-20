@@ -80,6 +80,21 @@ This master repository is created to consolidate all tasks in one place for easi
 
 ---
 
+
+## Tools and Technologies
+* Nmap
+* Wireshark
+* Burp Suite
+* SQLMap
+* Nessus Essentials
+* Fail2Ban
+* Flask
+* Postman
+* Linux (Ubuntu)
+* UFW Firewall
+
+---
+
 ##  Skills Demonstrated
 
 * Network Security
