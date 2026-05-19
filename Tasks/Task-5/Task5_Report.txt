@@ -1,0 +1,111 @@
+               Task 5: Malware Types & Behavior Analysis (Basic)
+
+1) What is Malware?
+Malware means malicious software.
+It is any program created to harm, steal data, spy, or control a computer without the user’s permission.
+Malware is used by attackers to:
+    • Steal passwords
+    • Encrypt files
+    • Spy on users
+    • Damage systems
+    • Take control of devices
+
+2) Types of Malware
+1. Virus
+A virus attaches itself to a normal file or program and spreads when that file is opened.
+Example:
+    • A virus inside a .exe file that infects other files when run.
+2. Worm
+A worm spreads automatically through networks without user action.
+Example:
+    • It moves from one computer to another using Wi-Fi or LAN.
+3. Trojan
+A trojan looks like a useful or safe file but actually contains malware.
+Example:
+    • A “free game” that secretly installs spyware.
+4. Ransomware
+This type locks or encrypts files and demands money to unlock them.
+Example:
+    • Files become .locked and attacker asks for Bitcoin.
+3) Tool Used – VirusTotal
+VirusTotal is an online malware analysis tool.
+It checks:
+    • Files
+    • URLs
+    • Hashes
+against 70+ antivirus engines.
+It shows:
+    • If a file is malicious
+    • What type of malware it is
+    • What behavior it performs
+4) What is a Hash?
+A hash is a unique fingerprint of a file.
+Even if two files look the same, their hashes are different.
+Example:
+44d88612fea8a8f36de82e1278abb02f
+This is an MD5 hash of a malware sample.
+We use hashes instead of uploading real viruses for safety.
+5) Malware Analysis Using VirusTotal
+I used known malware hashes in VirusTotal.
+Example sample types:
+    • Trojan
+    • Ransomware
+    • Worm
+After entering the hash:
+VirusTotal shows:
+    • Detection ratio (e.g., 56/70)
+    • Malware name
+    • Threat category
+    • Behavior
+6) Detection Report Example
+A typical VirusTotal report shows:
+Feature
+Meaning
+Detection Ratio
+How many antivirus engines detected it
+Malware Family
+Example: WannaCry, Zeus
+Type
+Trojan, ransomware, worm
+First Seen
+When it appeared
+Behavior
+What it does on the system
+
+7) Behavior Indicators
+Malware usually shows behaviors like:
+    • Creating new files
+    • Modifying registry
+    • Connecting to unknown IP addresses
+    • Running hidden processes
+    • Downloading more malware
+These are called Indicators of Compromise (IOC).
+8) Malware Life Cycle
+Malware follows these steps:
+    1. Entry – Gets into the system (email, USB, download)
+    2. Execution – User runs it
+    3. Installation – It hides in system files
+    4. Propagation – It spreads
+    5. Damage – Steals data or encrypts files
+    6. Control – Attacker controls the system
+9) How Malware Spreads
+Malware spreads through:
+    • Email attachments
+    • Fake software downloads
+    • USB drives
+    • Cracked software
+    • Malicious websites
+    • Network sharing
+10) How to Prevent Malware
+Best protection methods:
+    • Use antivirus
+    • Keep OS updated
+    • Do not open unknown emails
+    • Avoid pirated software
+    • Enable firewall
+    • Use strong passwords
+    • Scan files before opening
+Conclusion
+By completing this task, I gained a clear understanding of how malware works in real-world systems. I learned that malware is not just a single type of threat, but a collection of different programs such as viruses, worms, trojans, and ransomware, each designed to harm systems in different ways. Using VirusTotal helped me see how security tools analyze malware using file hashes and detection engines, which allows safe investigation without running the actual malicious files.
+I also understood how malware behaves after entering a system — such as creating hidden files, connecting to remote servers, and spreading to other devices. This task showed me that detecting malware is not only about antivirus software, but also about observing behavior and indicators of compromise. Most importantly, I realized that following basic security practices like avoiding unknown files, keeping systems updated, and using antivirus tools can prevent most malware attacks.
+Overall, this task gave me a strong foundation in malware awareness, detection, and prevention, which is an essential part of cybersecurity.
